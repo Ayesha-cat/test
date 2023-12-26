@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft Solutions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+             margin-bottom: 2em; 
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1em;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+        }
+
+        h2::before {
+            content: "\2022"; /* Bullet point character */
+            display: inline-block;
+            width: 1em;
+            margin-left: -1.5em; /* Adjust the spacing as needed */
+        }
+
+        h2 {
+           
+            display: inline-block; /* Align the bullet with the text */
+            margin-left: 0.5em; /* Add spacing between the bullet and text */
+        }
+
+        .project {
+            margin-bottom: 2em;
+            padding: 1em;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            background-color: #ecf0f1;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #portfolio {
+            margin-top: 2em;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ecf0f1;
+            padding: 1em;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #bdc3c7;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CodeCraft Solutions</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At CodeCraft Solutions, we are more than just a software house – we are architects of innovation, weaving digital solutions that transcend conventional boundaries. Our journey is rooted in a passion for crafting code that not only meets industry standards but sets new benchmarks for excellence. Established with a vision to empower businesses through cutting-edge technology, we bring together a dynamic team of experts who thrive on challenges and revel in the art of coding. With a commitment to quality, creativity, and client satisfaction, CodeCraft Solutions is your trusted partner in navigating the ever-evolving landscape of digital transformation. Join us on this exciting expedition where ideas transform into reality, and possibilities are limitless.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>CodeCraft Solutions offers a diverse range of services to meet the evolving demands of the digital landscape. From custom software development and web application design to robust cybersecurity solutions and seamless cloud integrations, we are your one-stop destination for transformative technology services. Our expertise extends to mobile app development, data analytics, and user experience design, ensuring that your business stays ahead in a competitive market. With a client-centric approach, we collaborate closely with you to understand your unique requirements, providing innovative and scalable solutions that propel your business forward. Discover the CodeCraft advantage – where technology meets creativity, and solutions are crafted with precision.</p>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to start your next project with us? Contact our team today!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 CodeCraft Solutions. All rights reserved.
+
+        </p>
+    
+    </footer>
+</body>
+
+</html>
